@@ -15,7 +15,7 @@ The `script` keyword can be used to access the instance of the current script.
 It can be used to index nearby instances or change the properties relating to itself.
 
 For example:
-```
+```lua
 local parent = script.Parent -- Getting the part that the script is inside
 parent.Color = Color3.fromRGB(255,0,0)
 ```
