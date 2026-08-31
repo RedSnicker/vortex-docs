@@ -14,6 +14,10 @@ Written by Kindtracker on August 29th, 2026
 Revision 2 - ReplicatedStorage and ServerScriptService
 
 Written by LumiMakesStuff (lumi on Vortex) August 30th, 2026
+
+---
+Revision 3 - Tweenservice added, Updated the references to be correct
+Written by redsnicker
 -->
 
 > [!NOTE]
@@ -37,12 +41,14 @@ Methods of `game`.
 Services of `game`.
 <br><br>
 
-* [Workspace](../classes/workspace.md)
-* [Players](../classes/players.md)
-* [ReplicatedStorage](../classes/replicated-storage.md)
-* [StarterPlayerScripts](../classes/starter-player-scripts.md)
-* [ServerScriptService](../classes/server-script-service.md)
-* [Lighting](../classes/lighting.md)
+* [Workspace](../globals/workspace)
+* [Players](../globals/players)
+* [ReplicatedStorage](../globals/replicated-storage)
+* [StarterPlayerScripts](../classes/starter-player-scripts)
+* [ServerScriptService](../classes/server-script-service)
+* [TweenService](../globals/tween-service)
+* [RunService](../globals/runservice)
+* [Lighting](../globals/lighting)
 
 </details>
 
