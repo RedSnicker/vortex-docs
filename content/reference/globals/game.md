@@ -5,7 +5,7 @@ description: The root instance of a game.
 
 <!-- 
 Game
-Revision 1
+Revision 2
 
 Written by Kindtracker on August 29th, 2026
 
@@ -18,14 +18,25 @@ Written by LumiMakesStuff (lumi on Vortex) August 30th, 2026
 ---
 Revision 3 - Tweenservice added, Updated the references to be correct
 Written by redsnicker
+Edited by MtcLuna05 on August 30th, 2026
 -->
 
 > [!NOTE]
-> There will be more things (methods, constructors, properties, etc.) in the future. This is based on leaks.
+> There will be more things (methods, constructors, properties, etc.) in the future.
 
 `game` is the root instance and provides access to services.
 
 ## Summary
+
+<details>
+<summary><b>Properties</b></summary>
+Properties of `game`.
+<br><br>
+
+* [Workspace](#workspace): [`Workspace`](/content/reference/classes/workspace.md)
+* [Players](#players): [`Players`](/content/reference/classes/players.md)
+
+</details>
 
 <details>
 <summary><b>Methods</b></summary>
@@ -33,6 +44,15 @@ Methods of `game`.
 <br><br>
 
 * [GetService(serviceName: `String`)](#getservice): `Instance`
+
+</details>
+
+<details>
+<summary><b>Callbacks</b></summary>
+Callbacks of `game`.
+<br><br>
+
+* [OnClose](#onclose): `Function` | `nil`
 
 </details>
 
@@ -52,13 +72,48 @@ Services of `game`.
 
 </details>
 
+## Properties
+
+### Workspace
+
+> [`Workspace`](/content/reference/classes/workspace.md)
+>
+> The root `Workspace` service.
+
+<br/>
+
+### Players
+
+> [`Players`](/content/reference/classes/players.md)
+>
+> A direct alias for the Players service. In Vortex Studio 0.3.4 it is a
+> distinct proxy table from `game:GetService("Players")`.
+
+<br/>
+
 ## Methods
 
-### GetService(serviceName: `String`)
+### GetService()
 
 > `Instance`
 >
-> Returns the service with specified name.
+> `game:GetService(serviceName: String)`
+>
+> Returns the service with the specified name.
+
+#### Parameters
+
+- `serviceName`: `String` — the name of the service to retrieve.
+
+<br/>
+
+## Callbacks
+
+### OnClose
+
+> `Function` | `nil`
+>
+> An optional callback that can be assigned before the game closes.
 
 <br/>
 
@@ -67,7 +122,7 @@ Services of `game`.
 ### Workspace
 
 > `Instance`
-> 
+>
 > The Workspace is the root object that holds anything that is currently in the world. [Workspace](../classes/workspace.md)
 
 <br/>
@@ -76,7 +131,7 @@ Services of `game`.
 
 > `Instance`
 >
-> Stub. [Players](../classes/players.md)
+> The service that contains the currently connected player objects. [Players](../classes/players.md)
 
 <br/>
 
@@ -84,7 +139,7 @@ Services of `game`.
 
 > `Instance`
 >
-> ReplicatedStorage contains objects replicated to the Client and Server. When the Server makes a modification, this is replicated to all clients. Any changes made by clients are not replicated to the server. [ReplicatedStorage](../classes/replicated-storage.md)
+> A container for instances loaded by both the server and the client. [ReplicatedStorage](../classes/replicated-storage.md)
 
 <br/>
 
@@ -106,8 +161,18 @@ Services of `game`.
 
 ### Lighting
 
-> `Instance`
+> Unavailable in the tested runtime
 >
-> Lighting is the game service that controls basic rendering and atmospherics. [Lighting](../classes/lighting.md)
+> `game:GetService("Lighting")` rejects this service in both Script and
+> LocalScript in Vortex Studio 0.3.4. [Lighting](../classes/lighting.md)
 
 <br/>
+
+## Testing Notes
+
+These observations are from Vortex Studio 0.3.4 and may differ in later
+releases.
+
+`game.Workspace` and `game:GetService("Workspace")` both report `ClassName`
+and `Name` as `Workspace`. `game.OnClose` starts as `nil`; assigning a
+function succeeds, but callback delivery has not been established.
