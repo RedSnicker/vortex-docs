@@ -5,7 +5,7 @@ description: Learn how to make your first script in Vortex Studio.
 
 <!-- 
 Your first script
-Revision 1
+Revision 2
 
 Written by Kindtracker on August 29th, 2026
 -->
@@ -16,11 +16,7 @@ You will see:
 print("Hello, world!")
 ```
 Then playtest the game, you will see "Hello, world!" in the output. Now, let's spawn a part in Workspace.
-First we need to get Workspace using the game's service functions
-```lua
-local workspace = game:GetService("Workspace")
-```
-Now we have workspace. Next, we need to create a part
+
 ```lua
 local part = Instance.new("Part")
 ```
@@ -37,3 +33,6 @@ part.Color = Color3.fromRGB(192, 32, 12)
 part.Anchored = false
 ```
 Playtest your game and you will see a part named "MyPart" with a size of `2, 2, 2`, a red color, and not anchored.
+
+`workspace` is a built-in shortcut for the Workspace service. However, other services don't have built-in shortcuts, so you need to use `game:GetService(serviceName: string)` to access them.
+
