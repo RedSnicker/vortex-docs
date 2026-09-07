@@ -18,9 +18,10 @@ First. we need to create a new part and save it in a variable for later use.
 local part = Instance.new("Part")
 ```
 
-Then lets set its position and size.
+Then lets set its position and size. and then move it over to the workspace so its visible.
 For this we'll use [Vector3](/reference/datatypes/vector3)
 ```lua
+part.Parent = workspace.
 part.Position = Vector3.new(5,5,5)
 part.Size = Vector3.new(8,8,8)
 ```
