@@ -34,7 +34,7 @@ This gets TweenService and finds a part named `TweenPart` inside the `Workspace`
 You can use any valid object that supports the properties you want to tween. You can also create an object using [Instance.new](../globals/instance-new.md).
 
 ### Creating TweenInfo
-You can find out how to create tween infos [Here](https://create.playvortex.io/reference/globals/tween-info/)
+You can find out how to create tween infos [Here](../reference/globals/tween-info/)
 
 You can find the available easing styles and directions on the [Enum](./enum.md) page.
 
