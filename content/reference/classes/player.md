@@ -6,7 +6,7 @@ description: An instance holding information about a connected client.
 ## Summary
 
 Represents a connected client. The current client is available through the
-[Players](https://create.playvortex.io/reference/classes/players/) service as
+[Players](./players.md) service as
 `LocalPlayer`.
 
 ### Example

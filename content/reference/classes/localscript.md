@@ -11,7 +11,7 @@ A LocalScript runs on the client (the player's machine). Use LocalScripts for cl
 
 - `Parent` : Instance — where the script is placed (e.g., a PlayerGui or StarterPlayerScripts).
 - `Disabled` : Boolean — whether the script is currently disabled.
-- `Source` : String — the script source (editor-only / read-only in some tools; not guaranteed to be available at runtime).
+- `Source` : string — the script source (editor-only / read-only in some tools; not guaranteed to be available at runtime).
 
 ## Example
 

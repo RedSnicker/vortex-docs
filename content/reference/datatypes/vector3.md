@@ -64,7 +64,7 @@ Methods of a `Vector3`.
 * [Cross](#cross): `Vector3`
 * [Dot](#dot): `Number`
 * [Lerp](#lerp): `Vector3`
-* [tostring(Vector3)](#tostringvector3): `String`
+* [tostring(Vector3)](#tostringvector3): `string`
 
 </details>
 
@@ -248,7 +248,7 @@ Methods of a `Vector3`.
 
 ### tostring(Vector3)
 
-> `String`
+> `string`
 >
 > Formats the vector as `"X, Y, Z"` with 3 decimal places, e.g. `"1.000, 2.000, 3.000"`.
 

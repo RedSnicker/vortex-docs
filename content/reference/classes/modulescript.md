@@ -12,5 +12,5 @@ runtime. `Source`, `Disabled`, and `RunContext` read as `nil`, and assigning
 
 The global `require` function is unavailable. Consequently, a runtime-created
 ModuleScript cannot provide shared executable code. Assigning it to
-[`ReplicatedStorage`](/content/reference/classes/replicated-storage.md) does
+[`ReplicatedStorage`](./replicated-storage.md) does
 not establish an observable child relationship.

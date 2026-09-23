@@ -18,7 +18,7 @@ Methods of an `Enum`.
 <br><br>
 
 * [GetEnumItems()](#getenumitems): `EnumItem[]`
-* [FromName(name: `String`)](#fromnamename-string): `EnumItem | nil`
+* [FromName(name: `string`)](#fromnamename-string): `EnumItem | nil`
 * [FromValue(value: `Number`)](#fromvaluevalue-number): `EnumItem`
 
 </details>
@@ -33,7 +33,7 @@ Methods of an `Enum`.
 
 <br/>
 
-### FromName(name: `String`)
+### FromName(name: `string`)
 
 > `EnumItem | nil`
 >

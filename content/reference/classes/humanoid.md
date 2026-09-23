@@ -17,8 +17,8 @@ The character's root transform is exposed separately as a
 Properties of a `Humanoid`.
 <br><br>
 
-* [ClassName](#classname): `String`
-* [Name](#name): `String`
+* [ClassName](#classname): `string`
+* [Name](#name): `string`
 * [Health](#health): `Number`
 * [MaxHealth](#maxhealth): `Number`
 
@@ -30,6 +30,7 @@ Methods of a `Humanoid`.
 <br><br>
 
 * [IsDead](#isdead): `Boolean`
+* [GetState] (#getstate): `Enum.HumanoidStateType`
 
 </details>
 
@@ -38,8 +39,12 @@ Methods of a `Humanoid`.
 Signals of a `Humanoid`.
 <br><br>
 
-* [Died](#died): [`Signal`](/content/reference/datatypes/signal.md)
-* [HealthChanged](#healthchanged): [`Signal`](/content/reference/datatypes/signal.md)
+* [Died](#died): [`Signal`](../datatypes/signal.md)
+* [HealthChanged](#healthchanged): [`Signal`](../datatypes/signal.md)
+* [StateChanged](#statechanged): [`Signal`](../datatypes/signal.md)
+* [Jumping](#jumping): [`Signal`](../datatypes/signal.md)
+* [FreeFalling](#freefalling): [`Signal`](../datatypes/signal.md)
+* [Running](#running): [`Signal`](../datatypes/signal.md)
 
 </details>
 
@@ -47,7 +52,7 @@ Signals of a `Humanoid`.
 
 ### ClassName
 
-> `String`
+> `string`
 >
 > The Humanoid class name, `"Humanoid"`.
 
@@ -55,7 +60,7 @@ Signals of a `Humanoid`.
 
 ### Name
 
-> `String`
+> `string`
 >
 > The Humanoid name.
 
@@ -87,11 +92,19 @@ Signals of a `Humanoid`.
 >
 > Returns whether the Humanoid is dead.
 
+### GetState
+
+> `Enum.HumanoidStateType``
+>
+> `humanoid:GetState()`
+>
+> Returns the Humanoid's current state.
+
 ## Signals
 
 ### Died
 
-> [`Signal`](/content/reference/datatypes/signal.md)
+> [`Signal`](../datatypes/signal.md)
 >
 > `humanoid.Died`
 >
@@ -101,11 +114,43 @@ Signals of a `Humanoid`.
 
 ### HealthChanged
 
-> [`Signal`](/content/reference/datatypes/signal.md)
+> [`Signal`](../datatypes/signal.md)
 >
 > `humanoid.HealthChanged`
 >
-> Signals that the Humanoid health changed.
+> Signals when the Humanoid health changes.
+
+### StateChanged
+
+> [`Signal`](../datatypes/signal.md)
+>
+> `humanoid.StateChanged`
+>
+> Signals when the Humanoid state changes.
+
+### Jumping
+
+> [`Signal`](../datatypes/signal.md)
+>
+> `humanoid.Jumping`
+>
+> Signals when the Humanoid is jumping.
+
+### FreeFalling
+
+> [`Signal`](../datatypes/signal.md)
+>
+> `humanoid.FreeFalling`
+>
+> Signals when the Humanoid enters or leaves the freefall state.
+
+### Running
+
+> [`Signal`](../datatypes/signal.md)
+>
+> `humanoid.Running`
+>
+> Signals when the Humanoid enters or leaves the running state.
 
 #### Parameters
 

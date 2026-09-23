@@ -27,7 +27,7 @@ Properties of a Model, in the order they appear on Vortex Studio.
 <details>
 <summary><b>Properties</b></summary>
 
-- [Name](#name): `String`
+- [Name](#name): `string`
 - [Position](#position): [`Vector3`](../datatypes/vector3.md)
 
 </details>
@@ -39,7 +39,7 @@ Properties of a Model, in the order they appear on Vortex Studio.
 
 
 ### Name
-> `String` \
+> `string` \
 \
 The name of the `model`, and its label in the explorer.
 

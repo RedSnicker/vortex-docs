@@ -12,8 +12,8 @@ Get it through `game:GetService("UserInputService")` in a `LocalScript`.
 <summary><b>Events</b></summary>
 <br>
 
-- [InputBegan](#inputbegan): [`Signal`](/content/reference/datatypes/signal.md)
-- [InputEnded](#inputended): [`Signal`](/content/reference/datatypes/signal.md)
+- [InputBegan](#inputbegan): [`Signal`](../datatypes/signal.md)
+- [InputEnded](#inputended): [`Signal`](../datatypes/signal.md)
 
 </details>
 
@@ -21,12 +21,12 @@ Get it through `game:GetService("UserInputService")` in a `LocalScript`.
 
 ### InputBegan
 
-> [`Signal`](/content/reference/datatypes/signal.md)
+> [`Signal`](../datatypes/signal.md)
 >
 > `UserInputService.InputBegan`
 
 Fires when input begins. The callback receives an
-[`InputObject`](/content/reference/datatypes/input-object.md); its `KeyCode`
+[`InputObject`](../datatypes/input-object.md); its `KeyCode`
 can be compared with an `Enum.KeyCode` item.
 
 ```luau
@@ -41,7 +41,7 @@ end)
 
 ### InputEnded
 
-> [`Signal`](/content/reference/datatypes/signal.md)
+> [`Signal`](../datatypes/signal.md)
 >
 > `UserInputService.InputEnded`
 

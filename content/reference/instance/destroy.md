@@ -2,7 +2,7 @@
 
 > `nil`
 >
-> Removes the instance and its descendants from the game. Once an instance is destroyed, it can no longer be used normally.
+> Removes the Instance and its descendants from the game. Once an instance is destroyed, it can no longer be used normally.
 >
 > ```lua
 > part:Destroy()

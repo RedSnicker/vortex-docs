@@ -1,8 +1,8 @@
-### FindFirstChild(name: `String`)
+### FindFirstChild(name: `string`)
 
 > `Instance?`
 >
-> Searches for a child of the instance with the specified name and returns it if one is found.
+> Searches for a child of the Instance with the specified name and returns it if one is found.
 >
 > ```lua
 > local part = workspace:FindFirstChild("Part")

@@ -23,7 +23,7 @@ Written by Kindtracker on August 28th, 2026
 Common properties of an `Instance`-like object.
 <br><br>
 
-* [Name](#name): `String`
+* [Name](#name): `string`
 * [Parent](#parent): `Instance | nil`
 
 </details>
@@ -43,7 +43,7 @@ Common methods of an `Instance`-like object.
 
 ### Name
 
-> `String` 
+> `string` 
 >
 > The name of the `Instance`.
 

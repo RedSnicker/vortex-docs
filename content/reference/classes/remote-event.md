@@ -9,7 +9,7 @@ Can be used to communicate from the server to a client (or all of them) and
 vice-versa.
 
 For more additional information, see
-[RemoteFunction](https://create.playvortex.io/reference/classes/remote-function/).
+[RemoteFunction](./remote-function.md).
 
 ### Example
 

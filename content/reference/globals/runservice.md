@@ -23,7 +23,7 @@ Methods of `RunService`.
 Signals of `RunService`.
 <br><br>
 
-* [Heartbeat](#heartbeat): [`Signal`](/content/reference/datatypes/signal.md)
+* [Heartbeat](#heartbeat): [`Signal`](../datatypes/signal.md)
 
 </details>
 
@@ -63,7 +63,7 @@ Signals of `RunService`.
 
 ### Heartbeat
 
-> [`Signal`](/content/reference/datatypes/signal.md)
+> [`Signal`](../datatypes/signal.md)
 >
 > `RunService.Heartbeat`
 >

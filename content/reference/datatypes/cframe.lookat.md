@@ -1,6 +1,6 @@
 ### lookAt(Position: `Vector3`, LookAt: `Vector3`)
 
-[svg](https://github.com/Nullvss/vortex-docs/blob/main/content/reference/datatypes/cframe.md#lookatposition-vector3-lookat-vector3)
+[svg](./cframe.md)
 
 > `CFrame`
 >

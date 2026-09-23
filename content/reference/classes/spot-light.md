@@ -11,7 +11,7 @@ Written by KingTasaz on August 28th, 2026
 -->
 
 ## Summary
-A `spotlight` must be the child of a [`part`](./part.md), and takes the position of its parent as its own.
+A `spotlight` must be the child of a [`Part`](./part.md), and takes the position of its parent as its own.
 
 There is currently no on/off switch for lights, but setting either the color, brightness, angle, or range to 0 will have the desired effect.
 
@@ -49,7 +49,7 @@ Properties of a SpotLight, in the order they appear on Vortex Studio.
 <details>
 <summary><b>Transform</b></summary>
 
-- [Name](#name): `String`
+- [Name](#name): `string`
 
 </details>
 
@@ -85,13 +85,13 @@ Darker colors have the same effect as turning off the light.
 ### Face
 > [`Enum.Face`](../datatypes/enumitem.md) \
 \
-Controls which face of the parent [`part`](./part.md) that the light is emitted from.
+Controls which face of the parent [`Part`](./part.md) that the light is emitted from.
 
 <br/>
 
 
 ### Name
-> `String` \
+> `string` \
 \
 The name of the `spotlight`, and its label in the explorer.
 

@@ -1,4 +1,4 @@
-### WaitForChild(name: `String`, timeout: `Number?`)
+### WaitForChild(name: `string`, timeout: `Number?`)
 
 > `Instance?`
 >

@@ -12,7 +12,7 @@ local tweenService = TweenService
 local tweenService = game:GetService("TweenService")
 ```
 
-See the [TweenService reference](/content/reference/classes/tween-service.md)
+See the [TweenService reference](../classes/tween-service.md)
 for `Create` and the current Vortex Studio behavior notes.
 
 TweenService allows you to smoothly change supported properties of an object over a specified amount of time. You can also control how the property changes using different easing styles and directions.
@@ -31,12 +31,12 @@ Now, let's create a simple tween that moves a part.
 
 This gets TweenService and finds a part named `TweenPart` inside the `Workspace`.
 
-You can use any valid object that supports the properties you want to tween. You can also create an object using [Instance.new](https://create.playvortex.io/reference/globals/instance-new/).
+You can use any valid object that supports the properties you want to tween. You can also create an object using [Instance.new](../globals/instance-new.md).
 
 ### Creating TweenInfo
 You can find out how to create tween infos [Here](https://create.playvortex.io/reference/globals/tween-info/)
 
-You can find the available easing styles and directions on the [Enum](https://create.playvortex.io/reference/globals/enum/) page.
+You can find the available easing styles and directions on the [Enum](./enum.md) page.
 
 ### Creating the Tween Goal
 

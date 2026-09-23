@@ -17,7 +17,7 @@ Written by Kindtracker on August 28th, 2026
 Properties of an `EnumItem`.
 <br><br>
 
-* [Name](#name): `String`
+* [Name](#name): `string`
 * [Value](#value): `Number`
 * [EnumType](#enumtype): `Enum`
 
@@ -27,7 +27,7 @@ Properties of an `EnumItem`.
 
 ### Name
 
-> `String` 
+> `string` 
 >
 > The name of the `EnumItem`.
 

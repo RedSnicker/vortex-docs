@@ -43,7 +43,7 @@ Properties of `game`.
 Methods of `game`.
 <br><br>
 
-* [GetService(serviceName: `String`)](#getservice): `Instance`
+* [GetService(serviceName: `string`)](#getservice): `Instance`
 
 </details>
 
@@ -76,7 +76,7 @@ Services of `game`.
 
 ### Workspace
 
-> [`Workspace`](/content/reference/classes/workspace.md)
+> [`Workspace`](../classes/workspace.md)
 >
 > The root `Workspace` service.
 
@@ -84,7 +84,7 @@ Services of `game`.
 
 ### Players
 
-> [`Players`](/content/reference/classes/players.md)
+> [`Players`](../classes/players.md)
 >
 > A direct alias for the Players service. In Vortex Studio 0.3.4 it is a
 > distinct proxy table from `game:GetService("Players")`.
@@ -97,13 +97,13 @@ Services of `game`.
 
 > `Instance`
 >
-> `game:GetService(serviceName: String)`
+> `game:GetService(serviceName: string)`
 >
 > Returns the service with the specified name.
 
 #### Parameters
 
-- `serviceName`: `String` — the name of the service to retrieve.
+- `serviceName`: `string` — the name of the service to retrieve.
 
 <br/>
 

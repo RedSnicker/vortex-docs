@@ -39,7 +39,7 @@ Properties of a Texture, in the order they appear on Vortex Studio.
 ### Face
 > [`Enum.Face`](../datatypes/enumitem.md) \
 \
-Controls which face of the parent [`part`](./part.md) that the texture is displayed on.
+Controls which face of the parent [`Part`](./part.md) that the texture is displayed on.
 
 <br/>
 

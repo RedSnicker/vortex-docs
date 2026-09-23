@@ -45,7 +45,7 @@ Properties of a Pointlight, in the order they appear on Vortex Studio.
 <details>
 <summary><b>Transform</b></summary>
 
-- [Name](#name): `String`
+- [Name](#name): `string`
 
 </details>
 
@@ -71,7 +71,7 @@ Darker colors have the same effect as turning off the light.
 
 
 ### Name
-> `String` \
+> `string` \
 \
 The name of the `pointlight`, and its label in the explorer.
 

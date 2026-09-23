@@ -17,8 +17,8 @@ Written by TheJustDare on August 31th, 2026
 Properties of a Workspace, in the order they appear on Vortex Studio
 <br><br>
 
-- [ClassName](#classname): `String`
-- [Name](#name): `String`
+- [ClassName](#classname): `string`
+- [Name](#name): `strings`
 </details>
 
 <details>
@@ -26,16 +26,16 @@ Properties of a Workspace, in the order they appear on Vortex Studio
 Methods of a `Workspace`.
 <br><br>
 
-- [FindFirstChild](#findfirstchild): [`Instance`](/content/reference/classes/instance.md) | `nil`
+- [FindFirstChild](#findfirstchild): [`Instance`](./instance.md) | `nil`
 - [GetChildren](#getchildren): `{ Instance }`
-- [WaitForChild](#waitforchild): [`Instance`](/content/reference/classes/instance.md)
+- [WaitForChild](#waitforchild): [`Instance`](./instance.md)
 
 </details>
 
 ## Properties
 
 ### ClassName
-> `String` \
+> `string` \
 \
 The runtime class name of the service.
 
@@ -43,7 +43,7 @@ The runtime class name of the service.
 
 
 ### Name
-> `String` \
+> `string` \
 \
 The service name shown by the runtime.
 
@@ -52,16 +52,16 @@ The service name shown by the runtime.
 ## Methods
 
 ### FindFirstChild()
-> [`Instance`](/content/reference/classes/instance.md) | `nil` \
+> [`Instance`](./instance.md) | `nil` \
 \
-`workspace:FindFirstChild(name: String)` \
+`workspace:FindFirstChild(name: string)` \
 \
 Returns the first direct child with the supplied `name`, or `nil` when none is
 found.
 
 #### Parameters
 
-- `name`: `String` — the child name to find.
+- `name`: `string` — the child name to find.
 
 <br/>
 
@@ -75,15 +75,15 @@ Returns the direct children of `Workspace`.
 
 
 ### WaitForChild()
-> [`Instance`](/content/reference/classes/instance.md) \
+> [`Instance`](./instance.md) \
 \
-`workspace:WaitForChild(name: String)` \
+`workspace:WaitForChild(name: string)` \
 \
 Waits for and returns a direct child with the supplied `name`.
 
 #### Parameters
 
-- `name`: `String` — the child name to wait for.
+- `name`: `string` — the child name to wait for.
 
 
 <br/>

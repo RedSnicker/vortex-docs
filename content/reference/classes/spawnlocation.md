@@ -48,7 +48,7 @@ Properties of a SpawnLocation, in the order they appear on Vortex Studio.
 <details>
 <summary><b>Transform</b></summary>
 
-- [Name](./part.md#name): `String`
+- [Name](./part.md#name): `string`
 - [Position](./part.md#position): [`Vector3`](../datatypes/vector3.md)
 - [Rotation](./part.md#rotation): [`Vector3`](../datatypes/vector3.md)
 - [Size](./part.md#size): [`Vector3`](../datatypes/vector3.md)

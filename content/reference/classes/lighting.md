@@ -60,7 +60,7 @@ Properties of Lighting, in the order they appear on Vortex Studio.
 ### Ambient Color
 > [`Color3`](../datatypes/color3.md) \
 \
-Determines the visible color of the `part`.
+Determines the visible color of the `Part`.
 Will also affect the part's [`Material`]() color.
 
 <br/>

@@ -3,8 +3,8 @@ title: Connection
 description: Represents a callback connected to a Signal.
 ---
 
-A `Connection` is returned by [`Signal:Connect`](/content/reference/datatypes/signal.md#connect)
-or [`Signal:Once`](/content/reference/datatypes/signal.md#once). It can be used
+A `Connection` is returned by [`Signal:Connect`](./signal.md#connect)
+or [`Signal:Once`](./signal.md#once). It can be used
 to stop the callback from receiving future signal fires.
 
 ## Summary

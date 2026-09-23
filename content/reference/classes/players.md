@@ -6,7 +6,7 @@ description: A container that holds all players currently connected as Player ob
 ## Summary
 
 A service representing connected clients as
-[Player](https://create.playvortex.io/reference/classes/player/) instances.
+[Player](./player.md) instances.
 
 ### Example
 
@@ -28,6 +28,13 @@ local player = Players.LocalPlayer
 ## Methods
 
 - `GetPlayers(): { Player }` - returns the currently visible player list.
+* `GetPlayerByUserId(UserId: number): Player` - Returns the player with the specified UserId.
+* `GetPlayerFromCharacter(character: Character): Player` - Returns the player associated with the specified character.
+
+## Signals
+
+* `PlayerAdded(): Signal` - signals when a player joins the server.
+* `PlayerRemoving(): Signal` - signals when a player leaves the server.
 
 `GetChildren` is not exposed by the current Vortex Players service.
 
